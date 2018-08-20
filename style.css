@@ -1,0 +1,38 @@
+body {
+		font-family: Arial;
+		 color: black;
+	}
+	table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+	
+
+	.split {
+        height: 100%;
+		width: 50%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		overflow-x: hidden;
+		padding-top: 20px;
+	}
+
+	.left {
+	  left: 0;
+	 background-color: white;
+	}
+
+	.right {
+		 right: 0;
+		background-color:#9ea0a3 ;
+	}
+	.button{
+		height: 50px;
+		width: 100px;
+	}
